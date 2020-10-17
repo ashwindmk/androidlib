@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.github.ashwindmk.AndroidLib;
+import com.github.ashwindmk.JavaLib;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -17,5 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         AndroidLib.log("Hello AndroidLib");
+
+        JavaLib.log("Hello JavaLib");
     }
 }
